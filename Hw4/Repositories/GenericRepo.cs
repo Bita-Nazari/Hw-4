@@ -18,11 +18,15 @@ namespace Hw4.Repositories
 
         public void Create(Person person)
         {
-         
-           
+            if (!(person.moblie.ToString().Length == 11)) 
+            {
+                throw new NotValidNumberException;
+            }
+
+
         }
 
-       
+
 
         public void Update(Person person)
         {
