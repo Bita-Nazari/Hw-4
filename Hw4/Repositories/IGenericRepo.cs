@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Hw4.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,13 +7,14 @@ using System.Threading.Tasks;
 
 namespace Hw4.Repositories
 {
-    public interface IGenericRepo<T> where T : class
+    public interface IGenericRepo
     {
-        List<T> GetAll();
-        void Create(T item);
-        void Read(T item);
-        void Delete(T item);
-        void Update(T item);
+     
+        void Create(Person person);
+        void Read();
+        void Delete(Person person);
+        void Update(Person person);
+        List<Person> GetAllPerson();
 
 
     }

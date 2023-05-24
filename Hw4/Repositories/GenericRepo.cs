@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Hw4.Entities;
+using Hw4.Services.Exception;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,31 +8,37 @@ using System.Threading.Tasks;
 
 namespace Hw4.Repositories
 {
-    public class GenericRepo<T> : IGenericRepo<T> where T : class
+    public class GenericRepo : IGenericRepo
     {
-        public void Read(T item)
+       
+        public void Read()
         {
             throw new NotImplementedException();
         }
 
-        public void Create(T item)
+        public void Create(Person person)
+        {
+         
+           
+        }
+
+       
+
+        public void Update(Person person)
         {
             throw new NotImplementedException();
         }
 
-        public void Delete(T item)
+        public void Delete(Person person)
+        {
+         
+        }
+        public List<Person> GetAllPerson()
         {
             throw new NotImplementedException();
         }
 
-        public List<T> GetAll()
-        {
-            throw new NotImplementedException();
-        }
 
-        public void Update(T item)
-        {
-            throw new NotImplementedException();
-        }
+        
     }
 }

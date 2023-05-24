@@ -10,7 +10,7 @@ namespace Hw4.Entities
 {
     public class Person
     {
-     
+        
         public string name { get; set; }
 
         public int id { get; set; }
