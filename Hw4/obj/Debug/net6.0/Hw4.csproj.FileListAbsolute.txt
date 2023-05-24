@@ -13,3 +13,6 @@ C:\Users\NoteBook\source\repos\Hw4\Hw4\obj\Debug\net6.0\refint\Hw4.dll
 C:\Users\NoteBook\source\repos\Hw4\Hw4\obj\Debug\net6.0\Hw4.pdb
 C:\Users\NoteBook\source\repos\Hw4\Hw4\obj\Debug\net6.0\Hw4.genruntimeconfig.cache
 C:\Users\NoteBook\source\repos\Hw4\Hw4\obj\Debug\net6.0\ref\Hw4.dll
+C:\Users\NoteBook\source\repos\Hw4\Hw4\bin\Debug\net6.0\ChilkatDotNet46.dll
+C:\Users\NoteBook\source\repos\Hw4\Hw4\obj\Debug\net6.0\Hw4.csproj.CopyComplete
+C:\Users\NoteBook\source\repos\Hw4\Hw4\bin\Debug\net6.0\CsvHelper.dll
